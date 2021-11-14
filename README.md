@@ -11,3 +11,5 @@ or... in one line
 ```
 ./make-resume.sh
 ```
+
+You are free to use this as a template for your CV too. Go wild.
