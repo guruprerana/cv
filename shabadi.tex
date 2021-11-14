@@ -1,0 +1,150 @@
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\voffset}{0.1in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{11in}
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+%-----------------------------------------------------------
+%\usepackage{fullpage}
+\usepackage{shading}
+%\textheight=9.0in
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Guruprerana Shabadi}  & guruprerana.github.io \\
+103, avenue Henri Becquerel &  guruprerana.shabadi@polytechnique.edu \\
+Palaiseau, 91120, France & +33 6 16 49 77 46\\
+\end{tabular*}
+\\
+
+\vspace{0.1in}
+
+\resheading{Introduction}
+
+I am a third year bachelor student at École Polytechnique studying mathematics and computer science. My current research interest lies in formal methods for cyber-physical systems (CPS), a topic I am actively thinking about and working on. I am fascinated by the topics of safe automation and human-robot interactions. I hope to work in these areas during my graduate studies. I am also interested in formal verification of AI systems trained with machine learning algorithms, which is what I will be working on starting from January 2022. 
+
+\resheading{Education}
+\begin{itemize}
+\item
+	\ressubheading{École Polytechnique}{Palaiseau, France}{B.S., Mathematics and Computer Science (Cumulative GPA: 4.21/4.30)}{Sep. 2019 - Present}
+	\begin{itemize}
+		\resitem{Admitted into the program with honors}
+		\resitem{Relevant courses: Design and Analysis of Algorithms, Machine Learning, Formal Languages, Computer Architecture, Compilers, Functional Programming, Mathematical Modelling, Group Theory, Measure Theory, Topology and Differential Calculus, Numerical Linear Algebra}
+	\end{itemize}
+
+\item
+	\ressubheading{Sindhi High School}{Bengaluru, India}{High School Diploma (Aggregate: 95.6\%)}{Jun. 2017 - Apr. 2019}
+	\begin{itemize}
+		\resitem{Subjects: Mathematics, Physics, Chemistry, and Biology}
+	\end{itemize}
+
+\end{itemize}
+
+\resheading{Experience}
+\begin{itemize}
+\item
+	\ressubheading{LIX, École Polytechnique (Computer Science Laboratory)}{Palaiseau, France}{Summer Research Intern}{Jun. 2021 - Present}
+	\begin{itemize}
+		\resitem{Advisor: Prof. Sergio Mover}
+		\resitem{Working with the Cosynus team on accounting for communication delays arising in cyber-physical systems}
+	\end{itemize}
+
+\item 
+	\ressubheading{Fasfox}{Paris, France}{Software Developer Intern}{Jun. 2020 - Aug. 2020}
+	\begin{itemize}
+		\resitem{Worked on the development of an application called 'Concrete Dispatch' used by large scale construction sites. Involved in all aspects of development including frontend and backend.}
+		\resitem{Technologies used: Django, Vue.js, Android}
+	\end{itemize}
+\end{itemize}
+
+\resheading{Awards}
+	\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		Excellence Scholarship from the École Polytechnique Foundation & 2019-2022\\
+		DGA Scholarship from the French Directorate General of Armaments & 2021-2022\\
+\end{tabular*}
+
+\resheading{Projects}
+\begin{itemize}
+\item
+	\ressubheading{FlapAI}{}{Machine Learning Project, CSE204}{}
+	\begin{itemize}
+		\resitem{Implemented neuroevolution and Q-Learning algoritms from scratch to learn how to play the game of Flappy Bird}
+		%\resitem{Simulated the various blocks using MAX+PlusII simulation tool.}
+	\end{itemize}
+
+\item
+	\ressubheading{Nuit de l'IA Hackathon}{}{Organized by Binet AI and X-UP Start-up Accelerator at Ecole Polytechnique}{Sep. 2019}
+	\begin{itemize}
+		\resitem{Member of the winning team at the hackathon}
+		\resitem{Best implementation of a multilabel classification algorithm for supermarket products}
+	\end{itemize}
+
+
+\item
+	\ressubheading{Other Projects}{}{École Polytechnique}{}
+	\begin{itemize}
+		\resitem{Built an online platform on Django for all the students to be able to track purchases and subscriptions made on campus.}
+	\end{itemize}
+
+\end{itemize}
+
+\resheading{Skills}
+
+\begin{description}
+\item[Languages:]
+C/C++, Python, Haskell, JavaScript, Java, HTML-CSS, Coq, x86 Assembly
+\item[Frameworks:]
+Django, Vue.js, Android, React, React Native, Pandas, Scikit-learn, Tensorflow, Qt
+\end{description}
+
+\resheading{Volunteer Experience}
+\begin{itemize}
+\item
+	\ressubheading{Developer Student Club of École Polytechnique}{}{Developer Student Club Lead}{Sep. 2020 - Jun. 2021}
+	\begin{itemize}
+		\resitem{As a part of the Google DSC Program, led a team in organizing events, workshops, and competitions about various platforms and technologies, including cloud and AI.}
+	\end{itemize}
+
+\item 
+	\ressubheading{Student Body of École Polytechnique}{}{Chief Financial Officer}{Jun. 2020 - Jun. 2021}
+	\begin{itemize}
+		\resitem{I was incharge of accounting, and gathering of sponsorships and funds, in addition to organizing the social and cultural life on campus.}
+	\end{itemize}
+\end{itemize}
+
+\end{document}
